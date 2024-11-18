@@ -23,9 +23,9 @@ const char* http_password = "admin";
 Adafruit_BME280 bme;         // BME280 connect to ESP32 I2C 
 const int buttonPin = 47;    // Pushbutton
 const int ledPin = 45;       // Status LED
-const int output = 15;       // Output socket
-const int ldr = 3;           // LDR (Light Dependent Resistor)
-const int motionSensor = 37; // PIR Motion Sensor
+const int output = 42;       // Output socket
+const int ldr = 6;           // LDR (Light Dependent Resistor)
+const int motionSensor = 47; // PIR Motion Sensor
 
 int ledState = LOW;           // 출력 핀의 현재 상태
 int buttonState;              // 입력 핀의 전류 판독값
